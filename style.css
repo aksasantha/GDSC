@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+header {
+  background-color: #c1325f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  list-style: none;
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  text-align: center;
+  color: #c1325f;
+  font-family: serif;
+}
+
+section .hero-content {
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  font-family: cursive;
+}
+
+section .projects {
+  list-style: none;
+}
+
+section .projects li {
+  display: flex;
+  flex-direction: column;
+}
+
+section .projects li img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+section .projects li p {
+  margin-top: 10px;
+  color: #c1325f;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #c1325f;
+  color: #fff;
+}
+
+header {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+nav a {
+  animation: slide-in 0.3s ease-in-out;
+}
+
+.projects li img {
+  animation: zoom-in 0.2s ease-in-out;
+}
